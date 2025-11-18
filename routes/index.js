@@ -4,6 +4,6 @@ import { renderHomepage } from "../controllers/index.js";
 
 const indexRouter= Router()
 
-indexRouter.get("/api", renderHomepage)
+indexRouter.get("/", renderHomepage)
 
 export default indexRouter
